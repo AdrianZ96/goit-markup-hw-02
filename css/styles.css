@@ -1,0 +1,21 @@
+body
+{
+    background-color:#fff
+    ;
+    color: black;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: black;
+    
+  }
+header
+{
+    background-color: #fff;
+}
+
+.webname
+{
+    color: blue;
+}

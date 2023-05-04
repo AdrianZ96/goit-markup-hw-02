@@ -6,128 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-      <nav>
+      <nav class="menu">
         <a href="index.html"
-          ><h3><span class="webname">Web</span>Studio</h3>
+          ><h3 class="head-logo"><span class="webname">Web</span>Studio</h3>
         </a>
-        <a href="#example">Agencja</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="#contact">Kontakt</a>
+        <a href="#example" class="submenu">Agencja</a>
+        <a href="portfolio.html" class="submenu">Portfolio</a>
+        <a href="#contact" class="submenu">Kontakt</a>
       </nav>
         <ul>
             <li>
-              <a href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
+              <a href="mailto:info@devstudio.com" target="_blank" class="contacts">info@devstudio.com</a>
             </li>
             <li>
-              <a href="tel:48111111111"> +48 111 111 111</a>
+              <a href="tel:48111111111" class="contacts"> +48 111 111 111</a>
             </li>
           </ul>
     </header>
     <main>
       <ul class="pagenav">
         <li>
-          <button type="button">Wszystkie</button>
+          <button type="button" class="navbutton">Wszystkie</button>
         </li>
         <li>
-          <button type="button">Strony</button>
+          <button type="button" class="navbutton">Strony</button>
         </li>
         <li>
-          <button type="button">Aplikacje</button>
+          <button type="button" class="navbutton">Aplikacje</button>
         </li>
         <li>
-          <button type="button">Dizajn</button>
+          <button type="button" class="navbutton">Dizajn</button>
         </li>
         <li>
-          <button type="button">Markieting</button>
+          <button type="button" class="navbutton">Markieting</button>
         </li>
       </ul>
       <div class="pic-box">
        <figure class="pictures">
          <img src="/images/book.jpg" width="370" height="294" />
-          <figcaption>
-            <h4>Magazyn Limited Edition</h4>
+          <figcaption class="pic-text">
+            <h4 class="pic-title">Magazyn Limited Edition</h4>
             Dizajn
 
          </figcaption>
         </figure>
         <figure class="pictures">
          <img src="/images/boxes.jpg" width="370" height="294" />
-         <figcaption>
-          <h4>Project Boxes</h4>
+         <figcaption class="pic-text">
+          <h4 class="pic-title">Project Boxes</h4>
             Aplikacja
          </figcaption>
         </figure>
        <figure class="pictures">
          <img src="/images/food.jpg" width="370" height="294" />
-         <figcaption>
-            <h4>Restauracja Seafood</h4>
+         <figcaption class="pic-text">
+            <h4 class="pic-title">Restauracja Seafood</h4>
               Aplikacja
           </figcaption>
        </figure>
         <figure class="pictures">
          <img src="/images/hdphones.jpg" width="370" height="294" />
-          <figcaption>
-            <h4>Project Prime</h4> 
+          <figcaption class="pic-text">
+            <h4 class="pic-title">Project Prime</h4> 
               Marketing
           </figcaption>
         </figure>
        <figure class="pictures">
          <img src="/images/pc.jpg" width="370" height="294" />
-         <figcaption>
-          <h4>Inspiration has no Borders</h4>
+         <figcaption class="pic-text">
+          <h4 class="pic-title">Inspiration has no Borders</h4>
           Strona Internetowa
 
          </figcaption>
         </figure>
         <figure class="pictures">
           <img src="/images/proj-name.jpg" width="370" height="294" />
-          <figcaption>
-            <h4>Projeck LAB</h4>
+          <figcaption class="pic-text">
+            <h4 class="pic-title">Projeck LAB</h4>
             Marketing
 
          </figcaption>
        </figure>
         <figure class="pictures">
           <img src="/images/sport.jpg" width="370" height="294" />
-          <figcaption>  
-            <h4>Grafika new Orlean vs Golden Star</h4>
+          <figcaption class="pic-text">  
+            <h4 class="pic-title">Grafika new Orlean vs Golden Star</h4>
             Dizajn
 
           </figcaption>
         </figure>
        <figure class="pictures">
           <img src="/images/techpic.jpg" width="370" height="294" />
-          <figcaption>
-            <h4>Technocrack</h4>
+          <figcaption class="pic-text">
+            <h4 class="pic-title">Technocrack</h4>
           Strona Internetowa
           </figcaption>
         </figure>
         <figure class="pictures">
           <img src="/images/writting.jpg" width="370" height="294" />
-          <figcaption>
-            <h4>Growing Business</h4>
+          <figcaption class="pic-text">
+            <h4 class="pic-title">Growing Business</h4>
             Aplikacja
 
           </figcaption>
         </figure>
       </div>
-      <div style="clear:both"></div>
     </main>
-    <footer>
-      <a href="#main"
-        ><h3><span>Web</span>Studio</h3>
+    <footer class="foot">
+      <a href="#main" class="footer-logo"
+        ><h3><span class="webname">Web</span>Studio</h3>
       </a>
-      <address id="contact">
+      <address id="contact" class="foot">
         <p>m.Warszawa, Aleje Jerozolimskie 21</p>
 
-        <a href="mailto:info@devstudio.com" target="_blank">
+        <a href="mailto:info@devstudio.com" target="_blank" class="foot">
           <p>info@devstudio.com</p>
         </a>
 
-        <a href="tel:48111111111">
+        <a href="tel:48111111111" class="foot">
           <p>+48 111 111 111</p>
         </a>
       </address>

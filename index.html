@@ -9,31 +9,36 @@
 
     <meta http-equiv="X-Ua-Compatible" content="IE=edge" />
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <header id="main">
-      <nav>
-        <a href="#main"
-          ><h3><span>Web</span>Studio</h3>
+    
+      <nav class="menu">
+        <a href="index.html"
+          ><h3 class="head-logo"><span class="webname">Web</span>Studio</h3>
         </a>
-        <a href="#example">Agencja</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="#contact">Kontakt</a>
+        <a href="#example" class="submenu">Agencja</a>
+        <a href="portfolio.html" class="submenu">Portfolio</a>
+        <a href="#contact" class="submenu">Kontakt</a>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:48111111111"> +48 111 111 111</a>
-        </li>
-      </ul>
+        <ul>
+            <li>
+              <a href="mailto:info@devstudio.com" target="_blank" class="contacts">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:48111111111" class="contacts"> +48 111 111 111</a>
+            </li>
+          </ul>
+      
       <h1>EFEKTOWNE ROZWIĄZANIE DLA WASZEGO BIZNESU</h1>
       <button type="button">Zamów usługę</button>
     </header>
     <main> 
-        <section>
+      <section>
           <h4>Lorem ipsum</h4>
           <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
@@ -107,21 +112,22 @@
         </figure>
       </section>
     </main>
-    <footer>
-      <a href="#main"
-        ><h3><span>Web</span>Studio</h3>
+    <footer class="foot">
+      <a href="#main" class="footer-logo"
+        ><h3><span class="webname">Web</span>Studio</h3>
       </a>
-      <address id="contact">
+      <address id="contact" class="foot">
         <p>m.Warszawa, Aleje Jerozolimskie 21</p>
 
-        <a href="mailto:info@devstudio.com" target="_blank">
+        <a href="mailto:info@devstudio.com" target="_blank" class="foot">
           <p>info@devstudio.com</p>
         </a>
 
-        <a href="tel:48111111111">
+        <a href="tel:48111111111" class="foot">
           <p>+48 111 111 111</p>
         </a>
       </address>
     </footer>
+    
   </body>
 </html>

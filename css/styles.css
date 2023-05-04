@@ -1,42 +1,101 @@
 body
 {
-    width: 1600px;
-    background-color:#fff;
-}
-a {
-    text-decoration: none;
-    
-  }
-header
-{
+    font-family: 'Roboto', sans-serif;
     background-color: #fff;
+    color: #212121;
+}
+a{
+    text-decoration: none;
+    color: #212121;
 }
 
-.webname
-{
-    color: blue;
+.submenu
+{  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
-button[type="button"]:hover
-{
-    background-color: blue;
+.submenu:hover,
+.submenu:focus {
+    color: #2196F3;
+}
+.submenu:active{
+    color: #2196F3;
+}
+
+.navbutton{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #F5F4FA;
+
+    border-radius: 4px;
+}
+.navbutton:hover,
+.navbutton:focus{
+    background: #2196F3;
     color: white;
 }
-nav:hover ,
-nav:focus
-{
-    color: rgb(27, 33, 191);
+.webname{
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
 }
-.pic-box{
-    margin-left: auto;
-    margin-right: auto;
+.contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+color: #757575;
+}
+
+.contacts:hover,
+.contacts:focus{
+    color: #2196F3;
     
 }
-.pictures{
-    float: left;
+.pic-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
 
 }
-.pagenav > li
-{
-    list-style-type: none;
-   
+.foot{
+    background: #2F303A;
+    color: #fff;
+}
+.footer-logo{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #fff;
+}
+.head-logo{
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+}
+.pic-text{
+    font-size: 16px;
+    line-height: 30px;
+    color:  #757575;
+}
+.pictures{
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
 }

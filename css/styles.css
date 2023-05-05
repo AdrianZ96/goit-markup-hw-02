@@ -1,101 +1,107 @@
-body
-{
-    font-family: 'Roboto', sans-serif;
-    background-color: #fff;
-    color: #212121;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #212121;
 }
-a{
-    text-decoration: none;
-    color: #212121;
-}
-
-.submenu
-{  
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.submenu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .submenu:hover,
 .submenu:focus {
-    color: #2196F3;
+  color: #2196f3;
 }
-.submenu:active{
-    color: #2196F3;
+.submenu:active {
+  color: #2196f3;
 }
 
-.navbutton{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    background-color: #F5F4FA;
-
-    border-radius: 4px;
+.navbutton {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .navbutton:hover,
-.navbutton:focus{
-    background: #2196F3;
-    color: white;
+.navbutton:focus {
+  background: #2196f3;
+  color: white;
 }
-.webname{
-    color: #2196F3;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
+.webname {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
-.contacts{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-color: #757575;
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
-
 .contacts:hover,
-.contacts:focus{
-    color: #2196F3;
-    
+.contacts:focus {
+  color: #2196f3;
 }
-.pic-title{
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    text-align: left;
-
+.pic-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
 }
-.foot{
-    background: #2F303A;
-    color: #fff;
+.foot {
+  background: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  line-height: 1.71;
 }
-.footer-logo{
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #fff;
+.foot:hover,
+.foot:focus {
+  color: #2196f3;
 }
-.head-logo{
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: black;
+.footer-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #fff;
 }
-.pic-text{
-    font-size: 16px;
-    line-height: 30px;
-    color:  #757575;
+.head-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
 }
-.pictures{
-    box-sizing: border-box;
-    border: 1px solid #EEEEEE;
+.pic-text {
+  font-size: 16px;
+  line-height: 1.875;
+  color: #757575;
+}
+.pictures {
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+}
+.footaddres {
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.footer-bg {
+  background: #2f303a;
 }
